@@ -1,0 +1,2 @@
+CREATE USER [svc_agent_user] WITHOUT LOGIN
+GO

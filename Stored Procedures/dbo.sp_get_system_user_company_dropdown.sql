@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+CREATE PROC [dbo].[sp_get_system_user_company_dropdown]
+As BEGIN
+
+	SELECT [COMPANYID]
+		  ,[COMPANY]
+	  FROM [KEYSTONE].[dbo].[COMPANY]
+	  ORDER BY COMPANY
+
+END
+GO

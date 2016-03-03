@@ -1,0 +1,3 @@
+CREATE SCHEMA [svc]
+AUTHORIZATION [dbo]
+GO
